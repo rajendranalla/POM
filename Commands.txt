@@ -1,0 +1,22 @@
+Commands to run in terminal:
+Example: mvn clean install -DsuiteXmlFile=<SuiteName.xml>
+
+> mvn clean install -DsuiteXmlFile=src\test\resources\runner\testng.xml
+
+
+(Or) If the testng.xml path (example: <suiteXmlFile>src\test\resources\runner\testng.xml</suiteXmlFile>)
+is already set in the POM.xml file, then run in the terminal:
+
+> mvn surefire-report:report && mvn site -DgenerateReports=false -X
+
+
+==================================================================================================================
+
+GIT COMMANDS: 
+1. Open GITbash and run as administrator
+2. Go to the path of the project
+
+Status (List the files you've changed and those you still need to add or commit:): git status
+Add (Add one or more files to staging (index):) : git add *
+Commit (Commit changes to head (but not yet to the remote repository):) : git commit -m "Commit message"
+Push (Send changes to the master branch of your remote repository:) : git push origin master

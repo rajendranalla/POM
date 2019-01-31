@@ -1,0 +1,9 @@
+18:48:34,104 DEBUG devpinoyLogger:162 - Config properties loaded
+18:48:34,107 DEBUG devpinoyLogger:178 - OR properties loaded
+18:48:37,024 DEBUG devpinoyLogger:195 - Launching Chrome
+18:48:39,884 DEBUG devpinoyLogger:206 - Navigating to: https://www.facebook.com/
+18:48:42,131 DEBUG devpinoyLogger:220 - DB connection established
+18:48:44,343 DEBUG devpinoyLogger:76 - Typing in an element email_xpath & the value entered is rajendranalla@gmail.com
+18:48:46,489 DEBUG devpinoyLogger:76 - Typing in an element password_xpath & the value entered is Prasad_9177
+18:48:54,212 DEBUG devpinoyLogger:58 - Click on an element loginButton_xpath
+18:48:59,871 DEBUG devpinoyLogger:234 - Test execution completed !!

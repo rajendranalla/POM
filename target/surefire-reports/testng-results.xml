@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learning TestNG" duration-ms="17085" started-at="2019-01-30T18:48:42 EST" finished-at="2019-01-30T18:48:59 EST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="17085" started-at="2019-01-30T18:48:42 EST" finished-at="2019-01-30T18:48:59 EST">
+      <class name="pages.LoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pages.LoginPage@2118cddf]" name="setUp" is-config="true" duration-ms="8040" started-at="2019-01-30T18:48:34 EST" finished-at="2019-01-30T18:48:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:pages.LoginPage@2118cddf]" name="doLogin" duration-ms="17048" started-at="2019-01-30T18:48:42 EST" data-provider="LoginPage" finished-at="2019-01-30T18:48:59 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajendranalla@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasad_9177]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pages.LoginPage@2118cddf]" name="tearDown" is-config="true" duration-ms="634" started-at="2019-01-30T18:48:59 EST" finished-at="2019-01-30T18:48:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pages.LoginPage -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Learning TestNG -->
+</testng-results>
